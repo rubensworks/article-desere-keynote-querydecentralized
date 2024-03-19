@@ -1,38 +1,35 @@
 ## Abstract
 <!-- Context      -->
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Due to the economic and societal problems being caused by the Web's growing centralization,
+there is an increasing interest in decentralizing data on the Web.
+This decentralization does however cause a number of technical challenges.
 <!-- Need         -->
-Vestibulum finibus dignissim augue, id pellentesque est facilisis non.
+If we want to give users in decentralized environments the same level of user experience as they are used to with centralized applications,
+we need solutions to these challenges.
 <!-- Task         -->
-Donec fringilla dolor non neque iaculis blandit.
+We discuss how query engines can act as layer between applications on the one hand, and decentralized environments on the other hand,
+Query engines therefore act as an abstraction layer that hides the complexities of decentralized data management for application developers.
 <!-- Object       -->
-Praesent aliquet eleifend iaculis.
+In this article, we outline the requirements for query engines over decentralized environments.
+Furthermore, we show how existing approaches meet these requirements, and which challenges remain.
 <!-- Findings     -->
-Quisque pellentesque at odio ac bibendum.
+As such, this article offers a high-level overview of a roadmap in the query and decentralization research domains.
 <!-- Conclusion   -->
-Pellentesque imperdiet felis urna, quis facilisis lacus gravida non.
-<!-- Perspectives -->
-Donec quis lectus eget sem tempor tristique pellentesque in dolor.
 
-<span id="keywords" rel="schema:about"><span class="title">Keywords</span>
-<a href="https://en.wikipedia.org/wiki/Linked_Data" resource="http://dbpedia.org/resource/Linked_Data">Linked Data</a>;
-<a href="https://en.wikipedia.org/wiki/Resource_Description_Framework" resource="http://dbpedia.org/resource/Resource_Description_Framework">RDF</a>
-</span>
+<!-- Perspectives -->
 
 <span class="printonly" id="acmreferenceformat">
 <span class="title">ACM Reference Format:</span>
-Taelman, R. Opportunities and Challenges for Querying across Decentralized Environments. In <i>The 1st Workshop on Decentralised Search and Recommendation, May 13—17, 2024, Signapore</i>. Publisher, New York, NY, USA, 2 pages.
-<i>http://dx.doi.org/1.2/111.222</i>
+Taelman, R. Requirements and Challenges for Query Execution across Decentralized Environments. In <i>Companion Proceedings of the ACM Web Conference 2024, May 13—17, 2024, Signapore</i>.
+<i>https://doi.org/10.1145/3589335.3652523</i>
 </span>
 
 <span class="printonly firstpagefooter">
 <span class="footnotecopyright">
-This paper is published under the Creative Commons Attribution 4.0 International (CC-BY 4.0) license.
-Authors reserve their rights to disseminate the work on their personal and corporate Web sites with the appropriate attribution.<br />
-<span style="font-style:italic">The Web Conference</span><br />
-©2024 Copyright,
-published under Creative Commons CC BY 4.0 License.<br />
-Publisher 1122.<br />
-DOI: http://dx.doi.org/1.2/111.222
+Permission to make digital or hard copies of all or part of this work for personal or classroom use is granted without fee provided that copies are not made or distributed for profit or commercial advantage and that copies bear this notice and the full citation on the first page. Copyrights for components of this work owned by others than the author(s) must be honored. Abstracting with credit is permitted. To copy otherwise, or republish, to post on servers or to redistribute to lists, requires prior specific permission and/or a fee. Request permissions from Permissions@acm.org.<br />
+WWW ’24 Companion, May 13-17, 2024, Singapore, Singapore.<br />
+© 2024 Copyright is held by the owner/author(s). Publication rights licensed to ACM.<br />
+ACM ISBN 979-8-4007-0172-6/24/5.<br />
+https://doi.org/10.1145/3589335.3652523<br />
 </span>
 </span>
