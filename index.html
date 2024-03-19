@@ -2,20 +2,20 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
   <meta charset="utf-8" />
-  <title property="foaf:name schema:name">Opportunities and Challenges for Querying across Decentralized Environments</title>
+  <title property="foaf:name schema:name">Requirements and Challenges for Query Execution across Decentralized Environments</title>
   <link rel="stylesheet" media="screen" href="styles/screen.css" />
   <link rel="stylesheet" media="print"  href="styles/print.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   
-  <meta name="citation_title" content="Opportunities and Challenges for Querying across Decentralized Environments">
+  <meta name="citation_title" content="Requirements and Challenges for Query Execution across Decentralized Environments">
   <meta name="citation_author" content="Ruben Taelman" />
   
-  <meta name="citation_publication_date" content="2024/03/14" />
+  <meta name="citation_publication_date" content="2024/03/19" />
 </head>
 
 <body prefix="dctypes: http://purl.org/dc/dcmitype/ pimspace: http://www.w3.org/ns/pim/space# rsa: http://www.w3.org/ns/auth/rsa# cert: http://www.w3.org/ns/auth/cert# wgs: http://www.w3.org/2003/01/geo/wgs84_pos# biblio: http://purl.org/net/biblio# bibo: http://purl.org/ontology/bibo/ book: http://purl.org/NET/book/vocab# ov: http://open.vocab.org/terms/ doap: http://usefulinc.com/ns/doap# dbr: http://dbpedia.org/resource/ dbp: http://dbpedia.org/property/ sio: http://semanticscience.org/resource/ opmw: http://www.opmw.org/ontology/ deo: http://purl.org/spar/deo/ doco: http://purl.org/spar/doco/ cito: http://purl.org/spar/cito/ fabio: http://purl.org/spar/fabio/ solid: http://www.w3.org/ns/solid/terms# acl: http://www.w3.org/ns/auth/acl# dio: https://w3id.org/dio# lsc: http://linkedscience.org/lsc/ns#" typeof="schema:CreativeWork sioc:Post prov:Entity lsc:Research">
   <header>
-  <h1 id="opportunities-and-challenges-for-querying-across-decentralized-environments">Opportunities and Challenges for Querying across Decentralized Environments</h1>
+  <h1 id="requirements-and-challenges-for-query-execution-across-decentralized-environments">Requirements and Challenges for Query Execution across Decentralized Environments</h1>
 
   <ul id="authors">
     <li><a rev="lsc:participatesIn" property="foaf:maker schema:creator schema:author schema:publisher" href="https://www.rubensworks.net/" typeof="foaf:Person schema:Person" resource="https://www.rubensworks.net/#me">Ruben Taelman</a></li>
@@ -51,40 +51,37 @@
 <div datatype="rdf:HTML" property="schema:description">
       <h2 property="schema:name">Abstract</h2>
       <!-- Context      -->
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      <p>Due to the economic and societal problems being caused by the Web’s growing centralization,
+there is an increasing interest in decentralizing data on the Web.
+This decentralization does however cause a number of technical challenges.
 <!-- Need         -->
-Vestibulum finibus dignissim augue, id pellentesque est facilisis non.
+If we want to give users in decentralized environments the same level of user experience as they are used to with centralized applications,
+we need solutions to these challenges.
 <!-- Task         -->
-Donec fringilla dolor non neque iaculis blandit.
+We discuss how query engines can act as layer between applications on the one hand, and decentralized environments on the other hand,
+Query engines therefore act as an abstraction layer that hides the complexities of decentralized data management for application developers.
 <!-- Object       -->
-Praesent aliquet eleifend iaculis.
+In this article, we outline the requirements for query engines over decentralized environments.
+Furthermore, we show how existing approaches meet these requirements, and which challenges remain.
 <!-- Findings     -->
-Quisque pellentesque at odio ac bibendum.
-<!-- Conclusion   -->
-Pellentesque imperdiet felis urna, quis facilisis lacus gravida non.
-<!-- Perspectives -->
-Donec quis lectus eget sem tempor tristique pellentesque in dolor.</p>
+As such, this article offers a high-level overview of a roadmap in the query and decentralization research domains.
+<!-- Conclusion   --></p>
 
-      <p><span id="keywords" rel="schema:about"><span class="title">Keywords</span>
-<a href="https://en.wikipedia.org/wiki/Linked_Data" resource="http://dbpedia.org/resource/Linked_Data">Linked Data</a>;
-<a href="https://en.wikipedia.org/wiki/Resource_Description_Framework" resource="http://dbpedia.org/resource/Resource_Description_Framework">RDF</a>
-</span></p>
+      <!-- Perspectives -->
 
       <p><span class="printonly" id="acmreferenceformat">
 <span class="title">ACM Reference Format:</span>
-Taelman, R. Opportunities and Challenges for Querying across Decentralized Environments. In <i>The 1st Workshop on Decentralised Search and Recommendation, May 13—17, 2024, Signapore</i>. Publisher, New York, NY, USA, 2 pages.
-<i>http:/​/​dx.doi.org/1.2/111.222</i>
+Taelman, R. Requirements and Challenges for Query Execution across Decentralized Environments. In <i>Companion Proceedings of the ACM Web Conference 2024, May 13—17, 2024, Signapore</i>.
+<i>https:/​/​doi.org/10.1145/3589335.3652523</i>
 </span></p>
 
       <p><span class="printonly firstpagefooter">
 <span class="footnotecopyright">
-This paper is published under the Creative Commons Attribution 4.0 International (CC-BY 4.0) license.
-Authors reserve their rights to disseminate the work on their personal and corporate Web sites with the appropriate attribution.<br />
-<span style="font-style:italic">The Web Conference</span><br />
-©2024 Copyright,
-published under Creative Commons CC BY 4.0 License.<br />
-Publisher 1122.<br />
-DOI: http://dx.doi.org/1.2/111.222
+Permission to make digital or hard copies of all or part of this work for personal or classroom use is granted without fee provided that copies are not made or distributed for profit or commercial advantage and that copies bear this notice and the full citation on the first page. Copyrights for components of this work owned by others than the author(s) must be honored. Abstracting with credit is permitted. To copy otherwise, or republish, to post on servers or to redistribute to lists, requires prior specific permission and/or a fee. Request permissions from Permissions@acm.org.<br />
+WWW ’24 Companion, May 13-17, 2024, Singapore, Singapore.<br />
+© 2024 Copyright is held by the owner/author(s). Publication rights licensed to ACM.<br />
+ACM ISBN 979-8-4007-0172-6/24/5.<br />
+https://doi.org/10.1145/3589335.3652523<br />
 </span>
 </span></p>
 
@@ -98,12 +95,214 @@ DOI: http://dx.doi.org/1.2/111.222
 <div datatype="rdf:HTML" property="schema:description">
         <h2 property="schema:name">Introduction</h2>
 
-        <p>This is a great article on the Semantic Web <span class="references">[<a href="#ref-1">1</a>]</span>, written in Markdown.</p>
+        <p>In recent decades, numerous instances of personal data exploitation occurred on the Web
+as a consequence of the large amount of centralization of data on the Web.
+Due to this, there has been increasing interest in the decentralization of such personal data,
+which has spawned various decentralization innitiatives such as
+<a property="schema:citation http://purl.org/spar/cito/cites" href="https://ruben.verborgh.org/articles/redecentralizing-the-web/">Solid</a> <span class="references">[<a href="#ref-1">1</a>]</span>, <a property="schema:citation http://purl.org/spar/cito/cites" href="https://blueskyweb.xyz/">Bluesky</a> <span class="references">[<a href="#ref-2">2</a>]</span>, and Mastodon <span class="references">[<a href="#ref-3">3</a>]</span>.
+Common among these decentralized environments is that they distribute personal and permissioned data across a large number of authoritative Web sources.
+For example, Solid calls these sources <em>personal data pods</em> that can contain RDF-based Linked Data documents.</p>
 
-        <p>Make sure to <a href="https://www.principiae.be/book/pdfs/TM&amp;Th-2.0-summary.pdf">write your document effectively</a>!</p>
+        <p>Within such decentralized environments, the problem of finding data is of critical importance when we want to build effective decentralized applications.
+While centralized query processing <span class="references">[<a href="#ref-4">4</a>]</span> over RDF data using
+the <a property="schema:citation http://purl.org/spar/cito/cites" href="https://www.w3.org/TR/2013/REC-sparql11-query-20130321/">SPARQL query language</a> <span class="references">[<a href="#ref-5">5</a>]</span> is a well-understood and extensively investigated problem,
+query processing across decentralized environments is not.</p>
 
-        <p class="todo">Write proper introduction.
-More information on snippets like this can be found on the <a href="https://github.com/rubensworks/ScholarMarkdown/wiki/Snippets">ScholarMarkdown wiki</a>.</p>
+        <p>The area of SPARQL query federation <span class="references">[<a href="#ref-6">6</a>, <a href="#ref-7">7</a>, <a href="#ref-8">8</a>]</span> that allows queries to be executed across multiple SPARQL endpoints
+may offer us a solution to part of the problem.
+However, existing federation techniques are <a property="schema:citation http://purl.org/spar/cito/cites" href="https://hal.science/hal-04180506/document">optimized for handling a <em>small</em> number (~10) of <em>large</em> sources</a> <span class="references">[<a href="#ref-9">9</a>]</span>,
+whereas decentralized environments such as Solid are characterized
+by a <em>large</em> number (&gt;1000) of <em>small</em> sources.
+Furthermore, federation techniques assume sources to be known prior to query execution,
+which is not feasible in decentralized environments due to the lack of a central index.
+<span class="placeholder printonly">
+<span style="display: block; height: 11em;"></span>
+<!-- This is a dummy placeholder for the ACM first page footnote -->
+</span>
+Alternatively, <a href="cite cites linktraversal">Link Traversal Query Processing (LTQP)</a> is a technique
+that discovers sources on-the-fly and can handle a very large number of them.
+With LTQP, the follow-your-nose principle of Linked Data is used to enable the query engine
+to follow links between documents to discover additional information.
+<a property="schema:citation http://purl.org/spar/cito/cites" href="https://comunica.github.io/Article-ISWC2023-SolidQuery/">Initial experiments have shown</a> <span class="references">[<a href="#ref-10">10</a>]</span> that LTQP is promising for decentralized environments such as Solid.</p>
+      </div>
+</section>
+
+  <section id="requirements" inlist="" rel="schema:hasPart" resource="#requirements">
+<div datatype="rdf:HTML" property="schema:description">
+        <h2 property="schema:name">Requirements</h2>
+
+        <p>In order to build applications across a decentralized environments,
+an interaction layer is needed that abstracts away the complexities involving reading from and writing to decentralized environments.
+Such an abstraction layer can be achieved in the form of query engines, where queries are the declarative language of exchange.
+Below, we highlight the key requirements for query engines across decentralized environments such as Solid.
+We limit ourselves to the requirements of read-only queries, and leave write queries for future work.</p>
+
+        <h3 id="execution-of-arbitrary-structured-queries">Execution of arbitrary structured queries</h3>
+
+        <p>A query engine should be able to execute queries without any restrictions.
+Concretely, any SPARQL queries should be executable, where the full expressiveness of the SPARQL language can be used.</p>
+
+        <h3 id="discovery-of-data-within-pods">Discovery of data within pods</h3>
+
+        <p>Decentralized environments such as Solid group personal data in so-called <em>pods</em>.
+Such a pod therefore contains all data created or owned by a person or agent.
+A pod can contain multiple resources, where each resource contains RDF triples that have specific access control.
+As such, pods lead to data being spread over different resources.
+Query engines aiming to query over these pods should be able to discover all RDF triples across all resources in the pod.</p>
+
+        <h3 id="discovery-of-data-across-pods">Discovery of data across pods</h3>
+
+        <p>Since data can also be interlinked between resources in different pods,
+it can also be useful to materialize these interlinkings using queries.
+As such, query engines should be able to discover links between resources and different pods and follow them.</p>
+
+        <h3 id="handling-location-heterogeneity">Handling location heterogeneity</h3>
+
+        <p>Data pods can be heterogeneous in terms of their data locations.
+For example, one pod may store pictures grouped by year, while another pod may store pictures by location.
+As such, in order for queries to be generic and usable for different pods, query engines should make no assumptions about data paths.</p>
+
+        <h3 id="handling-schema-heterogeneity">Handling schema heterogeneity</h3>
+
+        <p>Data pods can be heterogeneous in terms of their data model.
+As such, query engines should be able to discover and infer schemas used in the pod, even if it differs from the one used in the query.
+Furthermore, schema alignment should also take place across multiple pods.</p>
+
+        <h3 id="handling-api-heterogeneity">Handling API heterogeneity</h3>
+
+        <p>While pods currently are exposed using a document-oriented interface, different kinds of APIs may be added in the future.
+Data pods can be heterogeneous in terms of their API, as some pods may fully expose their data using one API, while another pod may use some other API.
+A single pod may even expose subsets of the full dataset with different APIs.
+Therefore, query engines should be able to understand and exploit these different APIs as best as possible.</p>
+
+        <h3 id="authentication">Authentication</h3>
+
+        <p>While pods may contain fully public data, data is usually private and only accessible to certain people or groups.
+Since different data within pods may be exposed at different levels of access control,
+query engines need to be able to request this data on behalf on the users through authentication mechanisms.</p>
+
+        <h3 id="user-perceived-performance">User-perceived performance</h3>
+
+        <p>Decentralized applications should be usable with a sufficient level of user-perceived performance.
+As such, when a user performs an action that translates to a query execution,
+the user should be served with at least a partial response based on query results in the order of seconds,
+so that user attention is kept within the application.</p>
+
+      </div>
+</section>
+
+  <section id="challenges" inlist="" rel="schema:hasPart" resource="#challenges">
+<div datatype="rdf:HTML" property="schema:description">
+        <h2 property="schema:name">Challenges</h2>
+
+        <p>In this section, we analyze how the requirements above are met by existing systems, and discuss which challenges remain.</p>
+
+        <p>To the best of our knowledge, three approaches exist at the time of writing that attempt to query or search through Solid pods in one way or another.
+A <a property="schema:citation http://purl.org/spar/cito/cites" href="https://comunica.github.io/Article-ISWC2023-SolidQuery/">first approach (LTQP Solid)</a> <span class="references">[<a href="#ref-10">10</a>]</span> applies LTQP to Solid, and makes use of the structural properties of Solid pods to optimize link traversal.
+It allows full SPARQL queries to be executed across one or multiple Solid pods.
+<a property="schema:citation http://purl.org/spar/cito/cites" href="https://drive.google.com/file/d/10shierpx6sIgbTS-Mn1SR6NN5Meb5lA0/view">ESPRESSO</a> <span class="references">[<a href="#ref-11">11</a>]</span> is a second approach that focuses on enabling keyword search over Solid pods.
+It makes use of a distributed index for Solid pods which can be accumulated in a single location.
+This accumulated index can then be queried using keyword search to find relevant pods to a query,
+<a property="schema:citation http://purl.org/spar/cito/cites" href="https://biblio.ugent.be/publication/01HFXXCEDY864SVA6VRARWQ64D">POD-QUERY</a> <span class="references">[<a href="#ref-12">12</a>]</span> is another approach that involves placing a SPARQL query engine agent in front of a Solid pod,
+which enables full SPARQL queries to be executed over single Solid pods. This approach does not enable query execution across multiple pods.</p>
+
+        <figure id="requirements-systems" class="table-smaller-font">
+
+          <table>
+            <thead>
+              <tr>
+                <th>Requirement</th>
+                <th>LTQP Solid</th>
+                <th>ESPRESSO  </th>
+                <th>POD-QUERY</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Execution of arbitrary structured queries</td>
+                <td>✓</td>
+                <td> </td>
+                <td>✓</td>
+              </tr>
+              <tr>
+                <td>Discovery of data within pods</td>
+                <td>✓</td>
+                <td>✓</td>
+                <td>✓</td>
+              </tr>
+              <tr>
+                <td>Discovery of data across pods</td>
+                <td>✓</td>
+                <td>~</td>
+                <td> </td>
+              </tr>
+              <tr>
+                <td>Handling location heterogeneity</td>
+                <td>✓</td>
+                <td>✓</td>
+                <td>✓</td>
+              </tr>
+              <tr>
+                <td>Handling schema heterogeneity</td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+              </tr>
+              <tr>
+                <td>Handling API heterogeneity</td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+              </tr>
+              <tr>
+                <td>Authentication</td>
+                <td>✓</td>
+                <td>✓</td>
+                <td>✓</td>
+              </tr>
+              <tr>
+                <td>User-perceived performance</td>
+                <td>~</td>
+                <td>✓</td>
+                <td>✓</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <figcaption>
+            <p><span class="label">Fig. 1:</span> An illustration of which requirements are met by which approaches.
+A checkmark (✓) indicates that the requirement is fully met.
+A tilde (~) indicates that the requirement is partially met.
+Otherwise, the requirement is not met.</p>
+          </figcaption>
+        </figure>
+
+        <p><a href="#requirements-systems">Fig. 1</a> indicates how well each approach meets the requirements listed above.
+This table shows that none of the approaches meets all of the requirements for querying over decentralized environments.
+Most of the requirements are met by at least some of the approaches,
+but the requirements for “Handling schema heterogeneity” and “Handling API heterogeneity” are met by none of the approaches.
+If SPARQL querying across multiple pods is desired, a traversal-based approach such as LTQP Solid will be needed.
+However, this approach only achieves acceptable levels of performance for non-complex queries.</p>
+
+        <p>As such, future research is needed in at least the following three areas.
+First, the heterogeneity of schemas across pods must be handled.
+Schema alignment could either happen server-side by requesting data in specific vocabularies.
+Alternatively, it could happen client-side at query-time in case the server is not able to provide these schema alignment capabilities.
+Second, the heterogeneity of pods in terms of their APIs must be handled.
+For this, query engines need to be able to discover the capabilities of heterogeneous APIs, and use them as efficient as possible during query planning.
+Third, more work is needed towards improving the performance of traversal-based queries.
+This could be done by focusing on client-side optimization techniques, such as prioritizing techniques for link traversal or better query planning algorithms.
+Alternatively, this could be done by exposing additional metadata or by introducing auxiliary summaries in third-party aggregators
+which could reduce the amount of work that needs to be done in the client-side query engine if that aggregator has already part of the query answer available.</p>
+      </div>
+</section>
+
+  <section id="acknowledgements" inlist="" rel="schema:hasPart" resource="#acknowledgements">
+<div datatype="rdf:HTML" property="schema:description">
+        <h2 property="schema:name">Acknowledgements</h2>
+
+        <p>This research was supported by SolidLab Vlaanderen (Flemish Government, EWI and RRF project VV023/10).
+Ruben Taelman is a postdoctoral fellow of the Research Foundation – Flanders (FWO) (1202124N).</p>
 
       </div>
 </section>
@@ -114,7 +313,29 @@ More information on snippets like this can be found on the <a href="https://gith
 <h2 id="references">References</h2>
 <dl class="references">
   <dt id="ref-1">[1]</dt>
-  <dd resource="#semanticweb" typeof="schema:Article">Berners-Lee, T., Hendler, J., Lassila, O., others: The semantic web. Scientific American. 284, 28–37 (2001).</dd>
+  <dd resource="https://ruben.verborgh.org/articles/redecentralizing-the-web/" typeof="schema:Chapter">Verborgh, R.: Re-decentralizing the Web, for good this time. In: Seneviratne, O. and Hendler, J. (eds.) Linking the World’s Information: A Collection of Essays on the Work of Sir Tim Berners-Lee. ACM (2022).</dd>
+  <dt id="ref-2">[2]</dt>
+  <dd resource="https://blueskyweb.xyz/" typeof="schema:CreativeWork">Bluesky: Bluesky. <a href="https://blueskyweb.xyz/">https:/​/​blueskyweb.xyz/</a> (2023).</dd>
+  <dt id="ref-3">[3]</dt>
+  <dd resource="#mastodon" typeof="schema:Article">Zignani, M., Gaito, S., Rossi, G.P.: Follow the Mastodon: Structure and Evolution of a Decentralized Online Social Network. In: Twelfth International AAAI Conference on Web and Social Media (2018).</dd>
+  <dt id="ref-4">[4]</dt>
+  <dd resource="#sparqlqueryoptimization" typeof="schema:Article">Schmidt, M., Meier, M., Lausen, G.: Foundations of SPARQL query optimization. In: Proceedings of the 13th International Conference on Database Theory. pp. 4–33. ACM (2010).</dd>
+  <dt id="ref-5">[5]</dt>
+  <dd resource="https://www.w3.org/TR/2013/REC-sparql11-query-20130321/" typeof="schema:CreativeWork">Harris, S., Seaborne, A., Prud’hommeaux, E.: SPARQL 1.1 Query Language. W3C, <a href="https://www.w3.org/TR/2013/REC-sparql11-query-20130321/">https:/​/​www.w3.org/TR/2013/REC-sparql11-query-20130321/</a> (2013).</dd>
+  <dt id="ref-6">[6]</dt>
+  <dd resource="#fedx" typeof="schema:Article">Schwarte, A., Haase, P., Hose, K., Schenkel, R., Schmidt, M.: Fedx: Optimization Techniques for Federated Query Processing on Linked Data. In: International semantic web conference. pp. 601–616. Springer (2011).</dd>
+  <dt id="ref-7">[7]</dt>
+  <dd resource="#hibiscus" typeof="schema:Article">Saleem, M., Ngomo, A.-C.N.: Hibiscus: Hypergraph-based Source Selection for SPARQL Endpoint Federation. In: European semantic web conference. pp. 176–191. Springer (2014).</dd>
+  <dt id="ref-8">[8]</dt>
+  <dd resource="#splendid" typeof="schema:Article">Görlitz, O., Staab, S.: Splendid: SPARQL Endpoint Federation Exploiting Void Descriptions. In: Proceedings of the Second International Conference on Consuming Linked Data-Volume 782. pp. 13–24. CEUR-WS. org (2011).</dd>
+  <dt id="ref-9">[9]</dt>
+  <dd resource="https://hal.science/hal-04180506/document" typeof="schema:Article">Dang, M.-H., Aimonier-Davat, J., Molli, P., Hartig, O., Skaf-Molli, H., Le Crom, Y.: FedShop: A Benchmark for Testing the Scalability of SPARQL Federation Engines. In: International Semantic Web Conference. pp. 285–301. Springer (2023).</dd>
+  <dt id="ref-10">[10]</dt>
+  <dd resource="https://comunica.github.io/Article-ISWC2023-SolidQuery/" typeof="schema:Article">Taelman, R., Verborgh, R.: Link Traversal Query Processing over Decentralized Environments with Structural Assumptions. In: Proceedings of the 22nd International Semantic Web Conference (2023).</dd>
+  <dt id="ref-11">[11]</dt>
+  <dd resource="https://drive.google.com/file/d/10shierpx6sIgbTS-Mn1SR6NN5Meb5lA0/view" typeof="schema:Article">Ragab, M., Savateev, Y., Moosaei, R., Tiropanis, T., Poulovassilis, A., Chapman, A., Roussos, G.: ESPRESSO: A Framework for Empowering Search on Decentralized Web. In: International Conference on Web Information Systems Engineering. pp. 360–375. Springer (2023).</dd>
+  <dt id="ref-12">[12]</dt>
+  <dd resource="https://biblio.ugent.be/publication/01HFXXCEDY864SVA6VRARWQ64D" typeof="schema:Article">Vandenbrande, M., Jakubowski, M., Bonte, P., Buelens, B., Ongenae, F., Van den Bussche, J.: POD-QUERY: Schema Mapping and Query Rewriting for Solid Pods. In: ISWC2023, the International Semantic Web Conference (2023).</dd>
 </dl>
 </section>
 </footer>
