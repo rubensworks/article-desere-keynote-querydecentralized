@@ -10,7 +10,7 @@
   <meta name="citation_title" content="Requirements and Challenges for Query Execution across Decentralized Environments">
   <meta name="citation_author" content="Ruben Taelman" />
   
-  <meta name="citation_publication_date" content="2024/03/19" />
+  <meta name="citation_publication_date" content="2024/03/21" />
 </head>
 
 <body prefix="dctypes: http://purl.org/dc/dcmitype/ pimspace: http://www.w3.org/ns/pim/space# rsa: http://www.w3.org/ns/auth/rsa# cert: http://www.w3.org/ns/auth/cert# wgs: http://www.w3.org/2003/01/geo/wgs84_pos# biblio: http://purl.org/net/biblio# bibo: http://purl.org/ontology/bibo/ book: http://purl.org/NET/book/vocab# ov: http://open.vocab.org/terms/ doap: http://usefulinc.com/ns/doap# dbr: http://dbpedia.org/resource/ dbp: http://dbpedia.org/property/ sio: http://semanticscience.org/resource/ opmw: http://www.opmw.org/ontology/ deo: http://purl.org/spar/deo/ doco: http://purl.org/spar/doco/ cito: http://purl.org/spar/cito/ fabio: http://purl.org/spar/fabio/ solid: http://www.w3.org/ns/solid/terms# acl: http://www.w3.org/ns/auth/acl# dio: https://w3id.org/dio# lsc: http://linkedscience.org/lsc/ns#" typeof="schema:CreativeWork sioc:Post prov:Entity lsc:Research">
@@ -77,9 +77,9 @@ Taelman, R. Requirements and Challenges for Query Execution across Decentralized
 
       <p><span class="printonly firstpagefooter">
 <span class="footnotecopyright">
-Permission to make digital or hard copies of all or part of this work for personal or classroom use is granted without fee provided that copies are not made or distributed for profit or commercial advantage and that copies bear this notice and the full citation on the first page. Copyrights for components of this work owned by others than the author(s) must be honored. Abstracting with credit is permitted. To copy otherwise, or republish, to post on servers or to redistribute to lists, requires prior specific permission and/or a fee. Request permissions from Permissions@acm.org.<br />
-WWW ’24 Companion, May 13-17, 2024, Singapore, Singapore.<br />
-© 2024 Copyright is held by the owner/author(s). Publication rights licensed to ACM.<br />
+Permission to make digital or hard copies of part or all of this work for personal or classroom use is granted without fee provided that copies are not made or distributed for profit or commercial advantage and that copies bear this notice and the full citation on the first page. Copyrights for third-party components of this work must be honored. For all other uses, contact the Owner/Author.<br /><br />
+<em>WWW ’24 Companion</em>, May 13-17, 2024, Singapore, Singapore.<br />
+© 2024 Copyright is held by the owner/author(s).<br />
 ACM ISBN 979-8-4007-0172-6/24/5.<br />
 https://doi.org/10.1145/3589335.3652523<br />
 </span>
@@ -115,12 +115,12 @@ whereas decentralized environments such as Solid are characterized
 by a <em>large</em> number (&gt;1000) of <em>small</em> sources.
 Furthermore, federation techniques assume sources to be known prior to query execution,
 which is not feasible in decentralized environments due to the lack of a central index.
-<span class="placeholder printonly">
-<span style="display: block; height: 11em;"></span>
-<!-- This is a dummy placeholder for the ACM first page footnote -->
-</span>
 Alternatively, <a href="cite cites linktraversal">Link Traversal Query Processing (LTQP)</a> is a technique
 that discovers sources on-the-fly and can handle a very large number of them.
+<span class="placeholder printonly">
+<span style="display: block; height: 9em;"></span>
+<!-- This is a dummy placeholder for the ACM first page footnote -->
+</span>
 With LTQP, the follow-your-nose principle of Linked Data is used to enable the query engine
 to follow links between documents to discover additional information.
 <a property="schema:citation http://purl.org/spar/cito/cites" href="https://comunica.github.io/Article-ISWC2023-SolidQuery/">Initial experiments have shown</a> <span class="references">[<a href="#ref-10">10</a>]</span> that LTQP is promising for decentralized environments such as Solid.</p>
