@@ -21,12 +21,12 @@ whereas decentralized environments such as Solid are characterized
 by a *large* number (>1000) of *small* sources.
 Furthermore, federation techniques assume sources to be known prior to query execution,
 which is not feasible in decentralized environments due to the lack of a central index.
-<span class="placeholder printonly">
-<span style="display: block; height: 11em;"></span>
-<!-- This is a dummy placeholder for the ACM first page footnote -->
-</span>
 Alternatively, [Link Traversal Query Processing (LTQP)](cite cites linktraversal) is a technique
 that discovers sources on-the-fly and can handle a very large number of them.
+<span class="placeholder printonly">
+<span style="display: block; height: 9em;"></span>
+<!-- This is a dummy placeholder for the ACM first page footnote -->
+</span>
 With LTQP, the follow-your-nose principle of Linked Data is used to enable the query engine
 to follow links between documents to discover additional information.
 [Initial experiments have shown](cite:cites solidquery) that LTQP is promising for decentralized environments such as Solid.

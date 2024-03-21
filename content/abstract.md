@@ -26,9 +26,9 @@ Taelman, R. Requirements and Challenges for Query Execution across Decentralized
 
 <span class="printonly firstpagefooter">
 <span class="footnotecopyright">
-Permission to make digital or hard copies of all or part of this work for personal or classroom use is granted without fee provided that copies are not made or distributed for profit or commercial advantage and that copies bear this notice and the full citation on the first page. Copyrights for components of this work owned by others than the author(s) must be honored. Abstracting with credit is permitted. To copy otherwise, or republish, to post on servers or to redistribute to lists, requires prior specific permission and/or a fee. Request permissions from Permissions@acm.org.<br />
-WWW ’24 Companion, May 13-17, 2024, Singapore, Singapore.<br />
-© 2024 Copyright is held by the owner/author(s). Publication rights licensed to ACM.<br />
+Permission to make digital or hard copies of part or all of this work for personal or classroom use is granted without fee provided that copies are not made or distributed for profit or commercial advantage and that copies bear this notice and the full citation on the first page. Copyrights for third-party components of this work must be honored. For all other uses, contact the Owner/Author.<br /><br />
+_WWW ’24 Companion_, May 13-17, 2024, Singapore, Singapore.<br />
+© 2024 Copyright is held by the owner/author(s).<br />
 ACM ISBN 979-8-4007-0172-6/24/5.<br />
 https://doi.org/10.1145/3589335.3652523<br />
 </span>
